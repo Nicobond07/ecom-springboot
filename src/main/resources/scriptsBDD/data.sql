@@ -1,0 +1,13 @@
+-- INSERT INTO salesman (pseudo, email, password, promo_code, number_orders, earned_cash, money_to_send, role, created) VALUES ('Nico', 'nicolasmary41@gmail.com', 'root', 'NXCO24', 0, 0, 0, 'ADMIN', now());
+-- INSERT INTO salesman (pseudo, email, password, promo_code, number_orders, earned_cash, money_to_send, role, created) VALUES ('Jean', 'jean@gmail.com', 'root', 'JEAN22', 0, 0, 0, 'SALESMAN', now());
+-- INSERT INTO category (name) VALUES ('Lego');
+-- INSERT INTO product (name, description, image, initial_price, promo, promo_price, id_category) VALUES ('Star Wars', 'Lego de la licence Star Wars', null, 220, 0, 0.0, 1);
+-- INSERT INTO product (name, description, image, initial_price, promo, promo_price, id_category) VALUES ('Harry Potter', 'Lego de la licence Harry Potter', null, 170, 0, 0.0, 1);
+-- INSERT INTO product (name, description, image, initial_price, promo, promo_price, id_category) VALUES ('Pokémon', 'Lego de la licence Pokémon', null, 180, 0, 0.0, 1);
+-- INSERT INTO sale (promo_code, total_price, created, id_client, id_product) VALUES ('NXCO24', 220.0, now(), 1, 1);
+-- INSERT INTO sale (promo_code, total_price, created, id_client, id_product) VALUES ('NXCO24', 220.0, now(), 1, 2);
+-- INSERT INTO sale (promo_code, total_price, created, id_client, id_product) VALUES ('NXCO24', 220.0, now(), 1, 3);
+-- INSERT INTO sale (promo_code, total_price, created, id_client, id_product) VALUES ('NXCO24', 220.0, now(), 1, 1);
+-- INSERT INTO sale (promo_code, total_price, created, id_client, id_product) VALUES ('NXCO24', 220.0, now(), 2, 1);
+-- INSERT INTO sale (promo_code, total_price, created, id_client, id_product) VALUES ('JEAN22', 220.0, now(), 2, 2);
+-- INSERT INTO sale (promo_code, total_price, created, id_client, id_product) VALUES ('JEAN22', 220.0, now(), 1, 1);
